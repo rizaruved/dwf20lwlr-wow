@@ -1,12 +1,12 @@
 import './App.css';
-import { FiHeart } from 'react-icons/fi';
+import { VscHeart } from 'react-icons/vsc';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Do you see what I see? <FiHeart />
+          Do you see what I see? <VscHeart />
         </p>
       </header>
     </div>
