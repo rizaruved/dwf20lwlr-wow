@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hi. This is your react app!
+          Do you see what I see?
         </p>
       </header>
     </div>
