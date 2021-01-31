@@ -1,0 +1,19 @@
+Pages
+-LandingPage
+-AfterLogin
+-SubscribeActive
+-DetailBook
+-ReadBook
+-Subscribe
+-ProfileActiveSubscribe
+-DetailBookIfAddMyList
+-ListTransaction
+-AddBook
+
+Components
+-SignInModal
+-SignUpModal
+-PopUp - Please Make Payment
+-PopUp - Thank You for Subscribing
+-DropDown - AddBook & LogOut
+-DropDown - Approved & Cancel
