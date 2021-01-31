@@ -10,9 +10,9 @@ import ReadBookPage from "../pages/ReadBook";
 import AddBookPage from "../pages/AddBook";
 import TransactionListPage from "../pages/TransactionList";
 
-const Route = () => {
+const PageRoute = () => {
     return (
-        <BrowserRouter>
+        // <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={LandingPage} />
                 <Route path="/after-login/" exact component={AfterLoginPage} />
@@ -23,6 +23,6 @@ const Route = () => {
                 <Route path="/add-book" exact component={AddBookPage} />
                 <Route path="/transaction-list/" exact component={TransactionListPage} />
             </Switch>
-        </BrowserRouter>
+        // </BrowserRouter>
     )
 }
