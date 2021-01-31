@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import LandingPage from "../pages/Landing";
 import AfterLoginPage from "../pages/AfterLogin";
@@ -12,15 +12,17 @@ import TransactionListPage from "../pages/TransactionList";
 
 const Route = () => {
     return (
-        <Switch>
-            <Route path="/" exact component={LandingPage} />
-            <Route path="/after-login/" exact component={AfterLoginPage} />
-            <Route path="/subscribe" exact component={SubscribePage} />
-            <Route path="/active-profile/" exact component={ActiveProfilePage} />
-            <Route path="/book-detail/" exact component={BookDetailPage} />
-            <Route path="/read-book/" exact component={ReadBookPage} />
-            <Route path="/add-book" exact component={AddBookPage} />
-            <Route path="/transaction-list/" exact component={TransactionListPage} />
-        </Switch>
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact component={LandingPage} />
+                <Route path="/after-login/" exact component={AfterLoginPage} />
+                <Route path="/subscribe" exact component={SubscribePage} />
+                <Route path="/active-profile/" exact component={ActiveProfilePage} />
+                <Route path="/book-detail/" exact component={BookDetailPage} />
+                <Route path="/read-book/" exact component={ReadBookPage} />
+                <Route path="/add-book" exact component={AddBookPage} />
+                <Route path="/transaction-list/" exact component={TransactionListPage} />
+            </Switch>
+        </BrowserRouter>
     )
 }
