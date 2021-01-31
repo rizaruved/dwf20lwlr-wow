@@ -15,7 +15,7 @@ import ErrorPage from "../pages/Error";
 //Import NavbarTes
 // import NavbarTest from "../components/NavbarTest/NavbarTest";
 
-const PageRoute = () => {
+const PageRoutes = () => {
     return (
         <div>
             {/* <NavbarTest /> */}
@@ -34,4 +34,4 @@ const PageRoute = () => {
     )
 }
 
-export default PageRoute;
+export default PageRoutes;
