@@ -1,11 +1,22 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
-import LandingPage from "../pages/LandingPage";
-import AfterLogin from "../pages/AfterLogin";
-import Subscribe from "../pages/Subscribe";
-import ActiveProfile from "../pages/ActiveProfile";
-import BookDetail from "../pages/BookDetail";
-import ReadBook from "../pages/ReadBook";
-import AddBook from "../pages/AddBook";
-import TransactionList from "../pages/TransactionList";
+import LandingPage from "../pages/Landing";
+import AfterLoginPage from "../pages/AfterLogin";
+import SubscribePage from "../pages/Subscribe";
+import ActiveProfilePage from "../pages/ActiveProfile";
+import BookDetailPage from "../pages/BookDetail";
+import ReadBookPage from "../pages/ReadBook";
+import AddBookPage from "../pages/AddBook";
+import TransactionListPage from "../pages/TransactionList";
+
+const Route = () => {
+    return (
+        <Switch>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/after-login" exact component={AfterLoginPage} />
+            <Route path="/subscribe" exact component={SubscribePage} />
+            <Route path="/" exact component={LandingPage} />
+        </Switch>
+    )
+}
