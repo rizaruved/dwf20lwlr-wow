@@ -17,7 +17,7 @@ import NavbarTest from "../components/NavbarTest/NavbarTest";
 
 const PageRoute = () => {
     return (
-        <NavbarTest />
+        // <NavbarTest />
         <Switch>
             <Route path="/" exact component={LandingPage} />
             <Route path="/after-login/" exact component={AfterLoginPage} />
