@@ -10,6 +10,7 @@ import BookDetailPage from "../pages/BookDetail";
 import ReadBookPage from "../pages/ReadBook";
 import AddBookPage from "../pages/AddBook";
 import TransactionListPage from "../pages/TransactionList";
+import ErrorPage from "../pages/Error";
 
 const PageRoute = () => {
     return (
@@ -22,6 +23,7 @@ const PageRoute = () => {
             <Route path="/read-book/" exact component={ReadBookPage} />
             <Route path="/add-book" exact component={AddBookPage} />
             <Route path="/transaction-list/" exact component={TransactionListPage} />
+            <Route component={ErrorPage} />
         </Switch>
     )
 }
