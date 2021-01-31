@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function NavbarTest() {
     return (
         <ul>
             <li><Link to="/">Home</Link></li>
@@ -15,3 +15,5 @@ function Navbar() {
         </ul>
     )
 }
+
+export default NavbarTest;
