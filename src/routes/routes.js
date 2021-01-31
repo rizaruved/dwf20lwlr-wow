@@ -13,12 +13,12 @@ import TransactionListPage from "../pages/TransactionList";
 import ErrorPage from "../pages/Error";
 
 //Import NavbarTes
-import NavbarTest from "../components/NavbarTest/NavbarTest";
+//import NavbarTest from "../components/NavbarTest/NavbarTest";
 
 const PageRoute = () => {
     return (
         <div>
-            <NavbarTest />
+            {/* <NavbarTest /> */}
             <Switch>
                 <Route path="/" exact component={LandingPage} />
                 <Route path="/after-login/" exact component={AfterLoginPage} />
