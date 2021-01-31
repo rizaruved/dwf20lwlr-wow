@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AddBook () {
+function AddBook() {
     return ( 
         <div>
             Ini adalah laman AddBook.

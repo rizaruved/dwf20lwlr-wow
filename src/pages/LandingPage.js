@@ -1,6 +1,6 @@
 import React from 'react';
 
-function LandingPage () {
+function LandingPage() {
     return ( 
         <div>
             Ini adalah laman LandingPage.
