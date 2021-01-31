@@ -25,3 +25,5 @@ const PageRoute = () => {
         </Switch>
     )
 }
+
+export default PageRoute;
