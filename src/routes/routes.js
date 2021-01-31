@@ -14,13 +14,13 @@ const Route = () => {
     return (
         <Switch>
             <Route path="/" exact component={LandingPage} />
-            <Route path="/after-login" exact component={AfterLoginPage} />
+            <Route path="/after-login/:url" exact component={AfterLoginPage} />
             <Route path="/subscribe" exact component={SubscribePage} />
-            <Route path="/active-profile" exact component={ActiveProfilePage} />
-            <Route path="/book-detail" exact component={BookDetailPage} />
-            <Route path="/read-book" exact component={ReadBookPage} />
+            <Route path="/active-profile/:url" exact component={ActiveProfilePage} />
+            <Route path="/book-detail/:url" exact component={BookDetailPage} />
+            <Route path="/read-book/:url" exact component={ReadBookPage} />
             <Route path="/add-book" exact component={AddBookPage} />
-            <Route path="/transaction-list" exact component={TransactionListPage} />
+            <Route path="/transaction-list/:url" exact component={TransactionListPage} />
         </Switch>
     )
 }
