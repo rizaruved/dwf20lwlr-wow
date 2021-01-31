@@ -12,7 +12,7 @@ import TransactionListPage from "../pages/TransactionList";
 
 const PageRoute = () => {
     return (
-        // <BrowserRouter>
+        <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={LandingPage} />
                 <Route path="/after-login/" exact component={AfterLoginPage} />
@@ -23,6 +23,6 @@ const PageRoute = () => {
                 <Route path="/add-book" exact component={AddBookPage} />
                 <Route path="/transaction-list/" exact component={TransactionListPage} />
             </Switch>
-        // </BrowserRouter>
+        </BrowserRouter>
     )
 }
