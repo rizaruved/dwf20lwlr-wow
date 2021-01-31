@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Router } from 'react-router-dom';
-import Routes from "../src/routes/routes";
+import { BrowserRouter } from 'react-router-dom';
+import Landing from "../src/pages/Landing";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Router></Router>
+    <Landing />
   </BrowserRouter>,
   document.getElementById('root')
 );
