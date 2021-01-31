@@ -1,11 +1,11 @@
 import React from 'react';
 
-function LandingPage() {
+function Landing() {
     return ( 
         <div>
-            Ini adalah laman LandingPage.
+            Ini adalah laman Landing.
         </div>
     )
 }
 
-export default LandingPage;
+export default Landing;
