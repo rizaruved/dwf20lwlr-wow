@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
+//Import Pages
 import LandingPage from "../pages/Landing";
 import AfterLoginPage from "../pages/AfterLogin";
 import SubscribePage from "../pages/Subscribe";
