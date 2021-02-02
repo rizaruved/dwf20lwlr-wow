@@ -1,5 +1,5 @@
 import React from 'react';
-import PagesStyles as Styles from '../pages/PagesStyles.css';
+import PagesStyles from '../pages/PagesStyles.css';
 import WOW from '../assets/WindowOfWorld.png';
 
 function Landing() {
