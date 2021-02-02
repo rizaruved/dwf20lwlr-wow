@@ -5,3 +5,19 @@
     left: 102px;
     top: 79px;
 }
+
+.landing-text {
+    position: absolute;
+    width: 522px;
+    height: 71px;
+    left: 129px;
+    top: 456px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
