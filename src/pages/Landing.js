@@ -6,6 +6,7 @@ import LandingBG from '../assets/Background1.png';
 function Landing() {
     return ( 
         <div className="container">
+            <img src={LandingBG} className="landing-img-bg" />
             <div className="left-landing-element">
                 <img src={WOW} className="landing-image" />
                 <p className="landing-text">
@@ -17,7 +18,6 @@ function Landing() {
                     <button className="signin-btn">Sign In</button>
                 </div>
             </div>
-            <img src={LandingBG} className="landing-img-bg" />
         </div>
     )
 }
