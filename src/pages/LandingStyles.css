@@ -21,3 +21,17 @@
 
     color: #000000;
 }
+
+.landing-btn {
+    position: absolute;
+    width: 67px;
+    height: 25px;
+    left: 191px;
+    top: 647px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+}
