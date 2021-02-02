@@ -1,7 +1,7 @@
 import React from 'react';
 import Landing from '../pages/Landing.css';
 import WOW from '../assets/images/logo.png';
-import LandingBG from '../assets/Background1.png';
+import MainBG from '../assets/Background1.png';
 
 function Landing() {
     return ( 
@@ -16,7 +16,7 @@ function Landing() {
                     <button className="signup-btn">Sign Up</button>
                     <button className="signin-btn">Sign In</button>
                 </div>
-                <img src={LandingBG} className="landing-img-bg" />
+                <img src={MainBG} className="landing-img-bg" />
             </div>
         </div>
     )
