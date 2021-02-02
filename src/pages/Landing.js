@@ -16,8 +16,8 @@ function Landing() {
                     <button className="signup-btn">Sign Up</button>
                     <button className="signin-btn">Sign In</button>
                 </div>
-                <img src={LandingBG} className="landing-img-bg" />
             </div>
+            <img src={LandingBG} className="landing-img-bg" />
         </div>
     )
 }
